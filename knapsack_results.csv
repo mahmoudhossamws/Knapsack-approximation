@@ -1,0 +1,111 @@
+instance_id,type,num_items,capacity,optimal_value,approx_value,ratio,max_weight,max_value
+1,"Random: Extreme value differences",14,160,1095,1095,1.0000,50,188
+2,"Random: Small capacity instance",29,92,615,615,1.0000,29,74
+3,"Random: High weight variation",23,283,275,264,1.0417,92,48
+4,"Random: Extreme value differences",13,112,820,820,1.0000,50,189
+5,"Random: Medium instance, high value items",11,73,409,409,1.0000,30,91
+6,"Random: Extreme value differences",13,161,891,891,1.0000,48,198
+7,"Random: Small instance",7,23,90,90,1.0000,19,43
+8,"Random: High weight variation",22,311,327,327,1.0000,96,47
+9,"Random: High weight variation",13,140,193,193,1.0000,84,40
+10,"Random: Small capacity instance",35,122,654,654,1.0000,29,79
+11,"Random: Large instance",41,563,1652,1649,1.0018,50,99
+12,"Random: Extreme value differences",14,136,904,904,1.0000,46,193
+13,"Random: Small capacity instance",34,110,669,659,1.0152,30,76
+14,"Random: Dense packing scenario",47,273,734,734,1.0000,15,30
+15,"Random: Extreme value differences",13,148,658,658,1.0000,48,165
+16,"Random: Correlated weights and values",28,230,663,663,1.0000,38,125
+17,"Random: Medium instance, high value items",12,96,396,396,1.0000,30,96
+18,"Random: Extreme value differences",14,168,723,723,1.0000,50,191
+19,"Random: Dense packing scenario",42,170,481,477,1.0084,15,30
+20,"Random: Small capacity instance",25,97,418,418,1.0000,30,80
+21,"Random: Small instance",7,18,85,85,1.0000,18,33
+22,"Random: Correlated weights and values",25,262,761,761,1.0000,40,117
+23,"Random: Extreme value differences",18,205,1107,1058,1.0463,50,193
+24,"Random: Small capacity instance",33,132,726,715,1.0154,30,79
+25,"Random: Large instance",21,298,842,842,1.0000,47,100
+26,"Random: Large instance",35,441,1327,1312,1.0114,50,100
+27,"Random: Large instance",43,577,1639,1639,1.0000,50,99
+28,"Random: Extreme value differences",13,116,804,804,1.0000,47,200
+29,"Random: Medium instance, high value items",20,110,784,784,1.0000,30,98
+30,"Random: Small capacity instance",29,107,574,574,1.0000,29,80
+31,"Random: Small capacity instance",31,121,636,636,1.0000,30,77
+32,"Random: Small capacity instance",32,122,656,653,1.0046,30,78
+33,"Random: Dense packing scenario",58,209,720,718,1.0028,15,30
+34,"Random: Large instance",47,713,1996,1994,1.0010,50,99
+35,"Random: Dense packing scenario",47,226,625,625,1.0000,15,30
+36,"Random: Dense packing scenario",54,258,760,759,1.0013,15,30
+37,"Random: High weight variation",16,282,284,284,1.0000,96,50
+38,"Random: High weight variation",14,171,209,209,1.0000,89,41
+39,"Random: Dense packing scenario",33,151,443,440,1.0068,15,30
+40,"Random: Correlated weights and values",30,197,566,566,1.0000,39,94
+41,"Random: High weight variation",25,322,366,363,1.0083,100,49
+42,"Random: Small instance",6,9,70,70,1.0000,9,48
+43,"Random: Small capacity instance",34,108,587,583,1.0069,30,80
+44,"Random: High weight variation",19,278,396,396,1.0000,96,50
+45,"Random: Small capacity instance",31,90,465,465,1.0000,30,79
+46,"Random: Correlated weights and values",28,233,705,704,1.0014,40,119
+47,"Random: Small capacity instance",16,62,301,301,1.0000,29,64
+48,"Random: Dense packing scenario",49,219,758,754,1.0053,15,30
+49,"Random: Small capacity instance",35,116,624,624,1.0000,29,80
+50,"Random: Dense packing scenario",53,197,653,653,1.0000,15,30
+51,"Random: Large instance",29,427,1223,1223,1.0000,49,98
+52,"Random: Correlated weights and values",26,281,796,795,1.0013,40,113
+53,"Random: Small capacity instance",29,85,430,430,1.0000,30,79
+54,"Random: Correlated weights and values",26,257,749,749,1.0000,38,109
+55,"Random: Small capacity instance",28,93,482,482,1.0000,30,79
+56,"Random: Small instance",6,19,84,84,1.0000,19,50
+57,"Random: Small capacity instance",33,139,584,584,1.0000,29,78
+58,"Random: Small instance",6,19,82,82,1.0000,19,34
+59,"Random: Extreme value differences",16,163,1005,1005,1.0000,50,198
+60,"Random: Small instance",6,25,77,77,1.0000,19,48
+61,"Random: Small capacity instance",32,92,551,551,1.0000,29,80
+62,"Random: Medium instance, high value items",13,83,511,511,1.0000,29,98
+63,"Random: Small capacity instance",20,94,359,359,1.0000,30,78
+64,"Random: Correlated weights and values",20,145,410,410,1.0000,38,86
+65,"Random: Correlated weights and values",26,216,589,589,1.0000,39,110
+66,"Random: Dense packing scenario",55,237,799,797,1.0025,15,30
+67,"Random: High weight variation",25,452,362,360,1.0056,100,48
+68,"Random: Small instance",5,19,159,159,1.0000,19,49
+69,"Random: Extreme value differences",19,178,1120,1120,1.0000,46,196
+70,"Random: Small capacity instance",15,56,185,185,1.0000,30,80
+71,"Random: Correlated weights and values",18,146,442,442,1.0000,40,109
+72,"Random: Extreme value differences",10,112,339,339,1.0000,50,104
+73,"Random: Dense packing scenario",30,165,395,395,1.0000,15,30
+74,"Random: Large instance",22,332,706,706,1.0000,48,90
+75,"Random: Small capacity instance",28,95,683,683,1.0000,30,78
+76,"Random: Large instance",50,674,2088,2080,1.0038,49,99
+77,"Random: Dense packing scenario",35,193,510,510,1.0000,15,30
+78,"Random: Extreme value differences",12,127,838,838,1.0000,47,196
+79,"Random: Large instance",34,531,1398,1396,1.0014,49,100
+80,"Random: Dense packing scenario",55,270,725,721,1.0055,15,30
+81,"Random: Small instance",6,16,54,54,1.0000,16,35
+82,"Random: Small capacity instance",22,70,372,372,1.0000,30,75
+83,"Random: Extreme value differences",18,192,1018,1018,1.0000,48,192
+84,"Random: Large instance",31,437,1496,1496,1.0000,49,99
+85,"Random: High weight variation",20,234,312,312,1.0000,95,50
+86,"Random: High weight variation",22,374,321,316,1.0158,96,50
+87,"Random: High weight variation",10,81,178,178,1.0000,78,45
+88,"Random: Dense packing scenario",34,139,458,453,1.0110,15,29
+89,"Random: Small capacity instance",15,56,305,305,1.0000,30,79
+90,"Random: High weight variation",21,379,344,344,1.0000,95,48
+91,"Random: Correlated weights and values",12,142,364,364,1.0000,39,97
+92,"Random: Dense packing scenario",56,266,746,746,1.0000,15,30
+93,"Random: Extreme value differences",13,140,668,668,1.0000,48,161
+94,"Random: Small capacity instance",34,130,777,776,1.0013,29,80
+95,"Random: Medium instance, high value items",15,81,442,442,1.0000,30,98
+96,"Random: Small capacity instance",15,51,229,229,1.0000,28,79
+97,"Random: High weight variation",22,258,240,240,1.0000,96,47
+98,"Random: Extreme value differences",17,181,945,945,1.0000,49,200
+99,"Random: Small instance",5,22,57,57,1.0000,20,38
+100,"Random: Large instance",36,410,1537,1515,1.0145,50,100
+101,"EDGE_CASE: Small Heavy Treasure",20,100,1000,1000,1.0000,99,1000
+102,"EDGE_CASE: High Density Trap",30,150,552,552,1.0000,15,52
+103,"EDGE_CASE: Big Small Medium Mix",15,130,415,415,1.0000,40,100
+104,"EDGE_CASE: Value Cliffs",10,100,1200,1200,1.0000,60,700
+105,"EDGE_CASE: Perfect Subset Sum",15,150,310,310,1.0000,90,180
+106,"EDGE_CASE: Large Values Small Weights",25,200,3500,3500,1.0000,35,500
+107,"EDGE_CASE: Deceptive Fractions",12,100,240,240,1.0000,90,180
+108,"EDGE_CASE: Order Sensitive",16,120,240,240,1.0000,90,180
+109,"EDGE_CASE: Critical Item",15,100,745,745,1.0000,30,300
+110,"EDGE_CASE: Last Unit Matters",15,50,162,162,1.0000,20,50
