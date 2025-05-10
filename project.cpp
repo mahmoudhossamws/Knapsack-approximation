@@ -477,7 +477,7 @@ void generateHistogram(const vector<KnapsackInstance>& instances) {
 }
 
 int main() {
-    vector<KnapsackInstance> random_instances = generateInstances(100);
+    vector<KnapsackInstance> random_instances = generateInstances(10000);
     vector<KnapsackInstance> edge_instances = generateEdgeCases(random_instances.size() + 1);
     
     vector<KnapsackInstance> all_instances;
