@@ -307,7 +307,7 @@ int solveDynamicProgramming(const vector<int>& weights, const vector<int>& value
     return dp[n][capacity];
 }
 
-// Improved approximation algorithm that combines value-based and density-based approaches
+
 int solveApproximation(const vector<int>& weights, const vector<int>& values, int capacity) {
     int n = weights.size();
     if (n == 0 || capacity == 0) return 0;
@@ -333,9 +333,9 @@ int solveApproximation(const vector<int>& weights, const vector<int>& values, in
         }
     }
     
-    // Density-based approach (value/weight ratio)
+    // Density-based approach (value/ sqrt weight ratio)
     sort(indices.begin(), indices.end(), [&weights, &values](int a, int b) {
-        return (double)values[a] / weights[a] > (double)values[b] / weights[b];
+        return (double)values[a] / sqrt(weights[a]) > (double)values[b] / sqrt(weights[b]);
     });
     
     int density_based_total = 0;
