@@ -321,25 +321,8 @@ int solveApproximation(const vector<int>& weights, const vector<int>& values, in
         return values[a] > values[b];
     });
     
-    int value_based_total = 0;
-    int remaining = capacity;
-    vector<bool> selected_value(n, false);
-    
-    for (int i : indices) {
-        if (weights[i] <= remaining) {
-            value_based_total += values[i];
-            remaining -= weights[i];
-            selected_value[i] = true;
-        }
-    }
-    
-    // Density-based approach (value/ sqrt weight ratio)
-    sort(indices.begin(), indices.end(), [&weights, &values](int a, int b) {
-        return (double)values[a] / sqrt(weights[a]) > (double)values[b] / sqrt(weights[b]);
-    });
-    
     int density_based_total = 0;
-    remaining = capacity;
+    int remaining = capacity;
     
     for (int i : indices) {
         if (weights[i] <= remaining) {
@@ -348,33 +331,7 @@ int solveApproximation(const vector<int>& weights, const vector<int>& values, in
         }
     }
     
-    // Try dynamic programming for small instances
-    int dp_result = 0;
-    if (n <= 30 && capacity <= 200) {
-        dp_result = solveDynamicProgramming(weights, values, capacity);
-    }
-    
-    // Attempt brute force for very small instances
-    int brute_force = 0;
-    if (n <= 15) {
-        int best = 0;
-        for (int mask = 0; mask < (1 << n); mask++) {
-            int total_weight = 0, total_value = 0;
-            for (int i = 0; i < n; i++) {
-                if (mask & (1 << i)) {
-                    total_weight += weights[i];
-                    total_value += values[i];
-                }
-            }
-            if (total_weight <= capacity && total_value > best) {
-                best = total_value;
-            }
-        }
-        brute_force = best;
-    }
-    
-    // Return the best result from all methods
-    return max({value_based_total, density_based_total, dp_result, brute_force});
+    return density_based_total;
 }
 
 void saveToCSV(const vector<KnapsackInstance>& instances, const string& filename) {
